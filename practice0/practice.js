@@ -4,7 +4,6 @@
 
     render: function() {
       //Add code here to render
-      this.$el.html('<p>Hello</p>');
       return this;
     }
 
