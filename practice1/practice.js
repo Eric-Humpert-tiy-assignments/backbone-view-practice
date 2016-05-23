@@ -1,15 +1,8 @@
 (function() {
 
-  var SimpleRenderingView = Backbone.View.extend({
+  //TODO: Create a backbone view named "SimpleRenderingView", uncomment what you see below, and complete the task.
 
-    render: function() {
-      this.$el.html('<span>You have added a span!</span>')
-      return this;
-    }
-
-  });
-
-  var view = new SimpleRenderingView({ el: $('#simple-rendering-view')});
-  view.render();
+  //var view = new SimpleRenderingView({ el: $('#simple-rendering-view')});
+  //view.render();
 
 })();
