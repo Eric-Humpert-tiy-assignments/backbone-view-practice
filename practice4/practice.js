@@ -1,9 +1,8 @@
 (function() {
 
   var ClickableView = Backbone.View.extend({
-    events: {
-      'click': 'toggle'
-    },
+
+    //TODO: call the "toggle" function when someone clicks on the view
 
     toggle: function() {
       this.$el.toggleClass('selected');
