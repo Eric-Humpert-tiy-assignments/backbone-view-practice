@@ -6,9 +6,10 @@
   var SimpleModelView = Backbone.View.extend({
 
     render: function() {
-      this.$el.html('<p>A view for ' + this.model.get('name') + '!</p>')
+      //TODO: render the paragraph here!
       return this;
     }
+
   });
 
   var view = new SimpleModelView({ el: $('#simple-model-view'), model: fred });
