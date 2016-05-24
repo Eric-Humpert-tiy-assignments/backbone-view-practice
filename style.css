@@ -79,13 +79,17 @@ h1 code {
 .lessons li {
   background-color: #EEE;
   border: solid 1px #DDD;
-  margin: 10px 0;
+  margin: 15px 0;
   padding: 10px;
 }
 
 .lessons h2 {
   font-size: 1.2em;
   font-weight: bold;
+}
+
+.lessons h2, .lessons p {
+  margin: 5px 0;
 }
 
 .instructions {
