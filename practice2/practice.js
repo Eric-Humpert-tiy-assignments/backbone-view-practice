@@ -7,6 +7,8 @@
 
     render: function() {
       //TODO: render the paragraph here!
+      var template = _.template("<p>A view for <%= name %>!</p>");
+      this.$el.html(template({name: fred.get("name")}));
       return this;
     }
 
