@@ -4,10 +4,6 @@
 
     //TODO: call the "toggle" function when someone clicks on the view
 
-    events: {
-      "click": "toggle",
-    },
-
     toggle: function() {
       this.$el.toggleClass('selected');
     },
